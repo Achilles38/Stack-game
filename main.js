@@ -337,7 +337,7 @@ window.addEventListener("resize", () => {
   // Adjust camera
   console.log("resize", window.innerWidth, window.innerHeight);
   const aspect = window.innerWidth / window.innerHeight;
-  const width = 10;
+  const width = 15;
   const height = width / aspect;
 
   camera.top = height / 2;
